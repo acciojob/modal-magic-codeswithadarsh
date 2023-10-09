@@ -1,32 +1,25 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Modal Example</title>
 </head>
-
 <body>
 
 <button id="openModalBtn">Open Modal</button>
 
-<div id="modal" class="modal">
-  <div class="modal-content">
-    <div class="modal-header">
-      <h2 class="modal-title">Modal Header</h2>
-      <button id="closeModalBtn" class="close-btn">&times;</button>
+<div id="modal">
+    <header>
+        <h2>Modal Title</h2>
+        <button id="closeModalBtn">Close</button>
+    </header>
+    <div id="modalContent">
+        <p>This is the modal content.</p>
     </div>
-    <div class="modal-body">
-      <p>Modal Body Content</p>
-    </div>
-  </div>
 </div>
 
-
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+<script src="script.js"></script>
 </body>
-
 </html>
